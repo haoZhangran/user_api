@@ -19,8 +19,8 @@ github.com/goccy/go-json v0.9.11/go.mod h1:6MelG93GURQebXPDq3khkgXZkazVtN9CRI+MG
 github.com/google/go-cmp v0.6.0 h1:ofyhxvXcZhMsU5ulbFiLKl/XBFqE1GSq7atu8tAmTRI=
 github.com/google/go-cmp v0.6.0/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=
 github.com/google/gofuzz v1.0.0/go.mod h1:dBl0BpW6vV/+mYPU4Po3pmUjxk6FQPldtuIdl/M65Eg=
-github.com/haoZhangran/common_sdk v0.0.2 h1:S9hoClh3XG+bSyPgoqnlcDIJ635Jj1oDBS/J77HkVtA=
-github.com/haoZhangran/common_sdk v0.0.2/go.mod h1:QeOR15P5X9i6KBdq4W/dqFTm4SjG3DSxWhgPX7Q2kA0=
+github.com/haoZhangran/common_sdk v0.0.3 h1:qTJXyr7OuBrttKTO3aNdudfM91+oxu119qUPdckhEug=
+github.com/haoZhangran/common_sdk v0.0.3/go.mod h1:9R5xzyqwZ4Z/9dQOOMGHoyec7P9rJe5J/R7kTgHd3sg=
 github.com/json-iterator/go v1.1.12 h1:PV8peI4a0ysnczrg+LtxykD8LfKY9ML6u2jnxaEnrnM=
 github.com/json-iterator/go v1.1.12/go.mod h1:e30LSqwooZae/UwlEbR2852Gd8hjQvJoHmT4TnhNGBo=
 github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=

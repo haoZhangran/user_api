@@ -4,7 +4,7 @@ go 1.22.1
 
 require (
 	github.com/gin-gonic/gin v1.8.1
-	github.com/haoZhangran/common_sdk v0.0.2
+	github.com/haoZhangran/common_sdk v0.0.3
 	gitlab.com/haoranz527/gocommon v0.0.3
 	google.golang.org/grpc v1.67.1
 )
