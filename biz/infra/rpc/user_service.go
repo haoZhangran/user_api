@@ -3,6 +3,7 @@ package rpc
 import (
 	"context"
 	"fmt"
+	"strconv"
 	"user_api/common/consts"
 
 	"google.golang.org/grpc/credentials/insecure"
@@ -41,6 +42,13 @@ func (u UserServiceRPCImpl) GetUserInfoByID(ctx context.Context, id string) (*z_
 
 	userInfo := &z_entity.User{
 		Name: resp.GetName(),
+		Id: func() int {
+			id, err := strconv.ParseInt(resp.GetID(), 10, 64)
+			if err != nil {
+				return 0
+			}
+			return int(id)
+		}(),
 	}
 	return userInfo, nil
 }
